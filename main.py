@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from pyparsing import Empty
 from openai import OpenAI
 
 from api_calls import fetch_time_series
@@ -10,7 +9,6 @@ from api_calls import process_accounts_separate
 from api_calls import all_yoy_change
 from api_calls import all_dataframes
 from api_calls import ai_portfolio_analysis
-from test2 import user_portfolio
 
 st.title("retail.risk dashboard")
 
