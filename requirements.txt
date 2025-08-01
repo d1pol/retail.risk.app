@@ -5,3 +5,8 @@ openai
 numpy
 requests
 python-dotenv
+pyparsing
+datetime
+json
+os
+dotenv
