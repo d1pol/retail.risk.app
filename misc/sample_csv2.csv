@@ -1,0 +1,9 @@
+﻿type,amount,ticker,rate
+equity,600,AMZN,
+equity,800,AAPL,
+equity,500,NVDA,
+equity,700,PLTR,
+cash,3000,,
+savings,2000,,0.04
+crypto,1000,bitcoin,
+crypto,500,ripple,

@@ -1,0 +1,8 @@
+﻿type,amount,ticker,rate
+equity,600,AMZN,
+cash,3000,,
+savings,2000,,0.04
+crypto,1000,bitcoin,
+crypto,500,ripple,
+savings,1345,,0.065
+bond,5476,,0.05
