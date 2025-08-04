@@ -1,10 +1,7 @@
 streamlit
 pandas
-plotly.express
+plotly
 openai
 numpy
 requests
 python-dotenv
-datetime
-os
-dotenv
