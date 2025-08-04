@@ -195,7 +195,7 @@ def ai_portfolio_analysis(age, inv_hor, portfolio, risk_tol):
     4. Consider age and investment horizon. If the user is young, with a long horizon, then they could perhaps consider assuming more risk (although explain the dangers of this)
     5. If necessary, highlight the advantages of compounding over a long period of time
     
-    Please be concise and employ sound reasoning. Do not offer financial advice.
+    Please be concise and employ sound reasoning. Do not offer financial advice. Do not end the response with a question, there is no functionaity for the user to reply.
     """
 
     user_prompt = f"""
