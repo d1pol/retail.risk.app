@@ -6,6 +6,5 @@ numpy
 requests
 python-dotenv
 datetime
-json
 os
 dotenv
