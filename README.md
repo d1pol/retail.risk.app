@@ -1,6 +1,10 @@
 ## Project Description
 retail.risk is an application that allows retail investors and normal people to punch in a few numbers and calculate classic portfolio analysis metrics used by asset managers etc, to do with their own portfolios. Displaying these metrics is MVP1, but ultimately the goal is to suggest areas in which they can take on more risk/ reduce their risk based on tolerance and age profiles.
 
+# Link to project
+https://retailrisk.streamlit.app/
+
+
 ## CSV Restrictions
 The CSV file has the following restrictions (to ensure data is pulled/ script executes smoothly): 
 	- The CSV should follow the format of the table below
