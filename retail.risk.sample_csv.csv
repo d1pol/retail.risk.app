@@ -1,0 +1,10 @@
+﻿type,amount,ticker,rate
+equity,2800,NVDA,
+equity,700,PLTR,
+cash,200,,
+savings,2200,,0.06
+bond,1000,,0.05
+crypto,2000,bitcoin,
+equity,300,NVDA,
+crypto,200,ethereum,
+equity,400,AMD,
