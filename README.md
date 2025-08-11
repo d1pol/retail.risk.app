@@ -1,5 +1,24 @@
 ## Project Description
-I want to create an application that allows retail investors and normal people to punch in a few numbers and calculate classic portfolio analysis metrics used by asset managers etc, to do with their own portfolios. Displaying these metrics is MVP1, but ultimately it would be cool to then suggest areas in which they can take on more risk/ reduce their risk based on tolerance and age profiles.
+retail.risk is an application that allows retail investors and normal people to punch in a few numbers and calculate classic portfolio analysis metrics used by asset managers etc, to do with their own portfolios. Displaying these metrics is MVP1, but ultimately the goal is to suggest areas in which they can take on more risk/ reduce their risk based on tolerance and age profiles.
+
+## CSV Restrictions
+The CSV file has the following restrictions (to ensure data is pulled/ script executes smoothly): 
+	- The CSV should follow the format of the table below
+ 	- Only the asset types below are accepted
+  	- Bonds/ savings accounts must include an interest rate in decimals
+ 	- API data cannot be pulled for funds/ indexes
+  	- Tickers for Crypto should be pulled from https://www.coingecko.com/. Look for API ID.
+   	- Incorrect tickers result in no data being pulled
+
+type		amount	ticker		rate
+equity		2800	NVDA	
+equity		700		PLTR	
+cash		200		
+savings		2200				0.06
+bond		1000				0.03
+crypto		2000	bitcoin		
+<img width="257" height="141" alt="image" src="https://github.com/user-attachments/assets/6c0bad1f-0ca4-44f7-b1b3-884dc8a53fbd" />
+
 
 ## App Features
 MVP1
